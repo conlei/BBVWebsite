@@ -1944,8 +1944,7 @@
 	}
 
     .image_logo {
-		padding: 1em;
-		width: 100%;
+		width: 90%;
 		height: auto;
 	}
 
@@ -3538,7 +3537,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 7em 0em 5em 0em ;
 				height: auto;
 				min-height: 0;
 			}
@@ -3742,6 +3741,11 @@
 			text-transform: uppercase;
 		}
 
+		#footer .copyright-logo {
+			width: 20%;
+			height: auto;
+		}
+
 			#footer .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
@@ -3780,6 +3784,10 @@
 
 			#footer {
 				padding: 4em 3em 2em 3em ;
+			}
+
+			#footer .copyright-logo {
+				width: 50%;
 			}
 
 		}
